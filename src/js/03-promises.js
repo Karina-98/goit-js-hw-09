@@ -30,7 +30,7 @@ form.addEventListener('submit', (e) => {
           `❌ Rejected promise ${position} in ${delay} ms`
     );
   });
-    parsDelay += parsStep;
+    parsDelay += parsStep; 
   }
 });
 
