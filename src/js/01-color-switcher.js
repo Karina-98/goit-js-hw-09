@@ -6,9 +6,9 @@ btnStart.addEventListener('click', onClickStart);
 
 btnStop.addEventListener('click', onClickStop);
 
-
+let timeId = null;
 function onClickStart() {
-   const timeId = setInterval(() => {
+    timeId = setInterval(() => {
         document.body.style.backgroundColor = getRandomHexColor();
 
     }, 1000);
