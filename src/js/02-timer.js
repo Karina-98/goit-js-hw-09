@@ -33,7 +33,7 @@ const options = {
   }
 };
 
-const fl = flatpickr(inputText, options);
+
 
 function convertMs(ms) {
   const second = 1000;
@@ -78,3 +78,4 @@ btn.addEventListener('click', () => {
   //   }
   }, 1000 );
 
+const fl = flatpickr(inputText, options);
